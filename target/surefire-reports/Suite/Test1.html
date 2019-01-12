@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jan 12 17:37:12 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>95 seconds (95897 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='wipro.automationassignment.testscripts.BuyTvTest.buyTvTest()'><b>buyTvTest</b><br>Test class: wipro.automationassignment.testscripts.BuyTvTest<br/>
+<a href="#Output-1364497552" onClick='toggleBox("Output-1364497552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1364497552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1364497552">
+Tapped successfully on By.id: home<br/>
+Tapped successfully on By.id: com.ebay.mobile:id/textview_sign_out_status<br/>
+Tapped successfully on By.id: com.ebay.mobile:id/button_sign_in<br/>
+Tapped successfully on By.id: android:id/button2<br/>
+Tapped successfully on By.id: home<br/>
+Tapped successfully on By.AndroidUIAutomator: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Settings").instance(0))<br/>
+Tapped successfully on By.xpath: //*[@text='Country/region']<br/>
+Tapped successfully on By.id: switch_widget<br/>
+Tapped successfully on By.id: check_country<br/>
+Tapped successfully on By.id: search_box<br/>
+Tapped successfully on By.id: com.ebay.mobile:id/button_bin<br/>
+Tapped successfully on By.id: com.ebay.mobile:id/take_action<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>wipro.automationassignment.testscripts.BuyTvTest@7225790e</td></tr>
+</table><p>
+</body>
+</html>

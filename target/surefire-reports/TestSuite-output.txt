@@ -1,0 +1,14 @@
+Jan 12, 2019 5:37:36 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Working Directory = E:\Assignment\automationassignment
+************************ PREPARING JSON ****************************
+E:\Assignment\automationassignment/src/test/java/wipro/automationassignment/config/testConfig.json
+************************ PARSING COMPLETED ****************************
+Working Directory = E:\Assignment\automationassignment
+************************ PREPARING JSON ****************************
+E:\Assignment\automationassignment/src/test/java/wipro/automationassignment/config/testConfig.json
+************************ PARSING COMPLETED ****************************
+Working Directory = E:\Assignment\automationassignment
+************************ PREPARING JSON ****************************
+E:\Assignment\automationassignment/src/test/java/wipro/automationassignment/config/testConfig.json
+************************ PARSING COMPLETED ****************************
