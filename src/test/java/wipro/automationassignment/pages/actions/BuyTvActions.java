@@ -38,15 +38,21 @@ public class BuyTvActions implements EBayHomePage, ProductSearchPage, CheckOutPa
 		au.enterText(searchForAnyThing, Config.get("tvType").getAsString());
 		au.pressKeyboardEnter();
 		au.findElement(itme).get(1).click();
+		
+		//Store item name and price details on search screen
 		String itemNameOnSearchScreen = au.findElement(itemName1).get(0).getText();
 		String itemPriceOnSearchScreen = au.findElement(itemPrice1).get(0).getText();
 		itemPriceOnSearchScreen = itemPriceOnSearchScreen.replace(" ", "").replace(",", "").replace(".00", "");
 		au.tap(buyNowButton);
 		au.tap(reviewButton);
+		
+		//Store item name and price details on checkout screen
 		String itemNameOnCheckOutScreen = au.findElement(itemName).get(0).getText();
 		String itemPriceOnCheckOutSearchScreen = au.findElement(itemPrice).get(0).getText();
 		itemPriceOnCheckOutSearchScreen = itemPriceOnCheckOutSearchScreen.replace(" ", "").replace(",", "")
 				.replace(".00", "");
+		
+		//Asserting deatils capturen on both screens
 		Assert.assertEquals(itemNameOnSearchScreen, itemNameOnCheckOutScreen);
 		Assert.assertTrue(itemPriceOnSearchScreen.contains(itemPriceOnCheckOutSearchScreen.split("\\$")[1]));
 	}
