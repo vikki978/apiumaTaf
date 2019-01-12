@@ -49,8 +49,14 @@ public class BuyTvTest {
 
 	@Test
 	public void buyTvTest() {
+		
+		//Do the login in to ebay App
 		loginActions.login();
+		
+		//Change the region/country to Australia
 		settingActions.changeRegion();
+		
+		//Perform TV buying action.
 		buyTvActions.buyTv();
 		
 	}
