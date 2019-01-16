@@ -6,6 +6,7 @@
 package wipro.automationassignment.pages.actions;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 
 import com.google.gson.JsonObject;
 
@@ -31,19 +32,30 @@ public class LoginActions implements EBaySettingsPage, LoginPage {
 		}
 
 	}
-
+    /*
+     * perform the login action in ebay app
+     */
 	public void login() {
-
+		Reporter.log("waiting for the app to load");
 		au.waitForElement(hamBurgerMenu);
 		au.tap(hamBurgerMenu);
+		Reporter.log("tap on hamburger menu to open menu items successfull");
 		au.tap(signIn);
+		Reporter.log("tap on signIn menu to open logIn screen successfull");
 		au.enterText(emailId, Config.get("emailId").getAsString());
+		Reporter.log("entered email ID successfully");
 		au.enterText(password, Config.get("password").getAsString());
+		Reporter.log("entered password successfully");
 		au.tap(signInButton);
+		Reporter.log("Tapped on signIn button successfully");
 		if (au.findElement(fingerPrintDialog).size() > 0) {
 			au.tap(mayBelaterButton);
 		}
+		else if (au.findElement(fingerPrintDialog1).size() > 0) {
+			au.tap(mayBelaterButton1);
+		}
 		Assert.assertTrue(au.isVisible(hamBurgerMenu));
+		Reporter.log("LogIn is successfull");
 	}
 
 }

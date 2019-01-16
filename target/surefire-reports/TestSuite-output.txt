@@ -1,4 +1,4 @@
-Jan 12, 2019 5:37:36 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 16, 2019 7:03:21 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 Working Directory = E:\Assignment\automationassignment
 ************************ PREPARING JSON ****************************

@@ -49,8 +49,12 @@ public class BuyTvTest {
 
 	@Test
 	public void buyTvTest() {
+		//In this step we perform the login In to ebay app
 		loginActions.login();
+		//In this step we perform the region change In to ebay app
 		settingActions.changeRegion();
+		//In this step we perform the tv buying scenario in ebay app
+		//Assertions are part of this action
 		buyTvActions.buyTv();
 		
 	}

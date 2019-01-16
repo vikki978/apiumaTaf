@@ -20,48 +20,126 @@
       <![CDATA[Working Directory2 = E:\Assignment\automationassignment/src/test/java/wipro/automationassignment/config/testConfig.json]]>
     </line>
     <line>
+      <![CDATA[waiting for the app to load]]>
+    </line>
+    <line>
       <![CDATA[Tapped successfully on By.id: home]]>
+    </line>
+    <line>
+      <![CDATA[tap on hamburger menu to open menu items successfull]]>
     </line>
     <line>
       <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/textview_sign_out_status]]>
     </line>
     <line>
+      <![CDATA[tap on signIn menu to open logIn screen successfull]]>
+    </line>
+    <line>
+      <![CDATA[entered email ID successfully]]>
+    </line>
+    <line>
+      <![CDATA[entered password successfully]]>
+    </line>
+    <line>
       <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/button_sign_in]]>
     </line>
     <line>
-      <![CDATA[Tapped successfully on By.id: android:id/button2]]>
+      <![CDATA[Tapped on signIn button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/bt_maybe_later]]>
+    </line>
+    <line>
+      <![CDATA[LogIn is successfull]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the app to load]]>
     </line>
     <line>
       <![CDATA[Tapped successfully on By.id: home]]>
     </line>
     <line>
+      <![CDATA[tap on hamburger menu to open menu items successfull]]>
+    </line>
+    <line>
       <![CDATA[Tapped successfully on By.AndroidUIAutomator: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Settings").instance(0))]]>
+    </line>
+    <line>
+      <![CDATA[tap on settings menu to open setting screen successfull]]>
     </line>
     <line>
       <![CDATA[Tapped successfully on By.xpath: //*[@text='Country/region']]]>
     </line>
     <line>
+      <![CDATA[tap on country/region option successfull]]>
+    </line>
+    <line>
       <![CDATA[Tapped successfully on By.id: switch_widget]]>
+    </line>
+    <line>
+      <![CDATA[turn off auto detct region settings successfull]]>
+    </line>
+    <line>
+      <![CDATA[tap on country/region option successfull]]>
+    </line>
+    <line>
+      <![CDATA[enter the Australia as country successfull]]>
     </line>
     <line>
       <![CDATA[Tapped successfully on By.id: check_country]]>
     </line>
     <line>
+      <![CDATA[Selected Australia as country from list successfull]]>
+    </line>
+    <line>
+      <![CDATA[Change of current region is successfull]]>
+    </line>
+    <line>
       <![CDATA[Tapped successfully on By.id: search_box]]>
+    </line>
+    <line>
+      <![CDATA[Tap on searchbox successfull]]>
+    </line>
+    <line>
+      <![CDATA[enter the iten details in searchbox successfully]]>
+    </line>
+    <line>
+      <![CDATA[Tap on the item on search screen successfull]]>
+    </line>
+    <line>
+      <![CDATA[get the item name in a variable on search screen]]>
+    </line>
+    <line>
+      <![CDATA[get the item price in a variable on search screen]]>
     </line>
     <line>
       <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/button_bin]]>
     </line>
     <line>
+      <![CDATA[Tap on buy now button successfull]]>
+    </line>
+    <line>
       <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/take_action]]>
     </line>
+    <line>
+      <![CDATA[Tap on review button successfull]]>
+    </line>
+    <line>
+      <![CDATA[get the item name in a variable on checkout screen]]>
+    </line>
+    <line>
+      <![CDATA[get the item price in a variable on checkout screen]]>
+    </line>
+    <line>
+      <![CDATA[successfully asserted details between search screen and checkout screen]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="95897" started-at="2019-01-12T12:07:12Z" finished-at="2019-01-12T12:08:48Z">
+  <suite name="Suite" duration-ms="196196" started-at="2019-01-16T13:32:26Z" finished-at="2019-01-16T13:35:42Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="95897" started-at="2019-01-12T12:07:12Z" finished-at="2019-01-12T12:08:48Z">
+    <test name="Test1" duration-ms="196196" started-at="2019-01-16T13:32:26Z" finished-at="2019-01-16T13:35:42Z">
       <class name="wipro.automationassignment.testscripts.BuyTvTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:wipro.automationassignment.testscripts.BuyTvTest@7225790e]" name="setUp" is-config="true" duration-ms="24649" started-at="2019-01-12T12:07:12Z" finished-at="2019-01-12T12:07:36Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:wipro.automationassignment.testscripts.BuyTvTest@7225790e]" name="setUp" is-config="true" duration-ms="56006" started-at="2019-01-16T13:32:26Z" finished-at="2019-01-16T13:33:22Z">
           <params>
             <param index="0">
               <value>
@@ -90,47 +168,125 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="buyTvTest()[pri:0, instance:wipro.automationassignment.testscripts.BuyTvTest@7225790e]" name="buyTvTest" duration-ms="69810" started-at="2019-01-12T12:07:36Z" finished-at="2019-01-12T12:08:46Z">
+        <test-method status="PASS" signature="buyTvTest()[pri:0, instance:wipro.automationassignment.testscripts.BuyTvTest@7225790e]" name="buyTvTest" duration-ms="138653" started-at="2019-01-16T13:33:22Z" finished-at="2019-01-16T13:35:40Z">
           <reporter-output>
             <line>
+              <![CDATA[waiting for the app to load]]>
+            </line>
+            <line>
               <![CDATA[Tapped successfully on By.id: home]]>
+            </line>
+            <line>
+              <![CDATA[tap on hamburger menu to open menu items successfull]]>
             </line>
             <line>
               <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/textview_sign_out_status]]>
             </line>
             <line>
+              <![CDATA[tap on signIn menu to open logIn screen successfull]]>
+            </line>
+            <line>
+              <![CDATA[entered email ID successfully]]>
+            </line>
+            <line>
+              <![CDATA[entered password successfully]]>
+            </line>
+            <line>
               <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/button_sign_in]]>
             </line>
             <line>
-              <![CDATA[Tapped successfully on By.id: android:id/button2]]>
+              <![CDATA[Tapped on signIn button successfully]]>
+            </line>
+            <line>
+              <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/bt_maybe_later]]>
+            </line>
+            <line>
+              <![CDATA[LogIn is successfull]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the app to load]]>
             </line>
             <line>
               <![CDATA[Tapped successfully on By.id: home]]>
             </line>
             <line>
+              <![CDATA[tap on hamburger menu to open menu items successfull]]>
+            </line>
+            <line>
               <![CDATA[Tapped successfully on By.AndroidUIAutomator: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Settings").instance(0))]]>
+            </line>
+            <line>
+              <![CDATA[tap on settings menu to open setting screen successfull]]>
             </line>
             <line>
               <![CDATA[Tapped successfully on By.xpath: //*[@text='Country/region']]]>
             </line>
             <line>
+              <![CDATA[tap on country/region option successfull]]>
+            </line>
+            <line>
               <![CDATA[Tapped successfully on By.id: switch_widget]]>
+            </line>
+            <line>
+              <![CDATA[turn off auto detct region settings successfull]]>
+            </line>
+            <line>
+              <![CDATA[tap on country/region option successfull]]>
+            </line>
+            <line>
+              <![CDATA[enter the Australia as country successfull]]>
             </line>
             <line>
               <![CDATA[Tapped successfully on By.id: check_country]]>
             </line>
             <line>
+              <![CDATA[Selected Australia as country from list successfull]]>
+            </line>
+            <line>
+              <![CDATA[Change of current region is successfull]]>
+            </line>
+            <line>
               <![CDATA[Tapped successfully on By.id: search_box]]>
+            </line>
+            <line>
+              <![CDATA[Tap on searchbox successfull]]>
+            </line>
+            <line>
+              <![CDATA[enter the iten details in searchbox successfully]]>
+            </line>
+            <line>
+              <![CDATA[Tap on the item on search screen successfull]]>
+            </line>
+            <line>
+              <![CDATA[get the item name in a variable on search screen]]>
+            </line>
+            <line>
+              <![CDATA[get the item price in a variable on search screen]]>
             </line>
             <line>
               <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/button_bin]]>
             </line>
             <line>
+              <![CDATA[Tap on buy now button successfull]]>
+            </line>
+            <line>
               <![CDATA[Tapped successfully on By.id: com.ebay.mobile:id/take_action]]>
+            </line>
+            <line>
+              <![CDATA[Tap on review button successfull]]>
+            </line>
+            <line>
+              <![CDATA[get the item name in a variable on checkout screen]]>
+            </line>
+            <line>
+              <![CDATA[get the item price in a variable on checkout screen]]>
+            </line>
+            <line>
+              <![CDATA[successfully asserted details between search screen and checkout screen]]>
             </line>
           </reporter-output>
         </test-method> <!-- buyTvTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:wipro.automationassignment.testscripts.BuyTvTest@7225790e]" name="tearDown" is-config="true" duration-ms="1401" started-at="2019-01-12T12:08:46Z" finished-at="2019-01-12T12:08:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:wipro.automationassignment.testscripts.BuyTvTest@7225790e]" name="tearDown" is-config="true" duration-ms="1494" started-at="2019-01-16T13:35:40Z" finished-at="2019-01-16T13:35:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
