@@ -42,6 +42,7 @@ public class BuyTvActions implements EBayHomePage, ProductSearchPage, CheckOutPa
 		au.pressKeyboardEnter();
 		au.findElement(itme).get(1).click();
 		Reporter.log("Tap on the item on search screen successfull");
+		//Store item name and price details on search screen
 		String itemNameOnSearchScreen = au.findElement(itemName1).get(0).getText();
 		Reporter.log("get the item name in a variable on search screen");
 		String itemPriceOnSearchScreen = au.findElement(itemPrice1).get(0).getText();
@@ -51,12 +52,15 @@ public class BuyTvActions implements EBayHomePage, ProductSearchPage, CheckOutPa
 		Reporter.log("Tap on buy now button successfull");
 		au.tap(reviewButton);
 		Reporter.log("Tap on review button successfull");
+		//Store item name and price details on checkout screen
 		String itemNameOnCheckOutScreen = au.findElement(itemName).get(0).getText();
 		Reporter.log("get the item name in a variable on checkout screen");
 		String itemPriceOnCheckOutSearchScreen = au.findElement(itemPrice).get(0).getText();
 		Reporter.log("get the item price in a variable on checkout screen");
 		itemPriceOnCheckOutSearchScreen = itemPriceOnCheckOutSearchScreen.replace(" ", "").replace(",", "")
 				.replace(".00", "");
+		
+		//Asserting deatils capturen on both screens
 		Assert.assertEquals(itemNameOnSearchScreen, itemNameOnCheckOutScreen);
 		Assert.assertTrue(itemPriceOnSearchScreen.contains(itemPriceOnCheckOutSearchScreen.split("\\$")[1]));
 		Reporter.log("successfully asserted details between search screen and checkout screen");
