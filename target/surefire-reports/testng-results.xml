@@ -8,10 +8,13 @@
       <![CDATA[Working Directory2 = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment/src/test/java/healthifyme/automationassignment/config/testConfig.json]]>
     </line>
     <line>
-      <![CDATA[Working Directory = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment]]>
+      <![CDATA[Read email Id from config]]>
     </line>
     <line>
-      <![CDATA[Working Directory2 = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment/src/test/java/healthifyme/automationassignment/config/testConfig.json]]>
+      <![CDATA[Read password from config]]>
+    </line>
+    <line>
+      <![CDATA[calling login function with email: hme-testpr150@example.com and password: password]]>
     </line>
     <line>
       <![CDATA[waiting for the app to load]]>
@@ -32,33 +35,84 @@
       <![CDATA[Tapped on logIn button successfully]]>
     </line>
     <line>
+      <![CDATA[looking for google account selection dialog]]>
+    </line>
+    <line>
+      <![CDATA[No google account selection dialog appeared]]>
+    </line>
+    <line>
       <![CDATA[LogIn is successfull]]>
     </line>
     <line>
-      <![CDATA[waiting for the app to load]]>
+      <![CDATA[Read today's food objective text from config]]>
+    </line>
+    <line>
+      <![CDATA[calling trackFoodObjective function with today's foodObjective: What's on your plate?]]>
+    </line>
+    <line>
+      <![CDATA[Tap on me tab]]>
     </line>
     <line>
       <![CDATA[Tapped successfully on By.xpath: //android.widget.TextView[@text='Me']]]>
+    </line>
+    <line>
+      <![CDATA[scrolling opened objective page]]>
+    </line>
+    <line>
+      <![CDATA[iterate over all the objectives and find food Objective element]]>
+    </line>
+    <line>
+      <![CDATA[store imageview element on food Objective card in an webelement]]>
+    </line>
+    <line>
+      <![CDATA[Tap on food Objective element]]>
+    </line>
+    <line>
+      <![CDATA[Select breakfast from Which meal would you like to track? page]]>
+    </line>
+    <line>
+      <![CDATA[Search the item you want to have for brakfast]]>
+    </line>
+    <line>
+      <![CDATA[get the list of all search results of breakfast items]]>
+    </line>
+    <line>
+      <![CDATA[Select any food item randomly]]>
+    </line>
+    <line>
+      <![CDATA[selected breakfast item is Boiled Milk]]>
+    </line>
+    <line>
+      <![CDATA[add selected food item to breakfast]]>
     </line>
     <line>
       <![CDATA[Tapped successfully on By.id: com.healthifyme.basic:id/btn_add]]>
     </line>
     <line>
+      <![CDATA[Tap on done button]]>
+    </line>
+    <line>
       <![CDATA[Tapped successfully on By.id: com.healthifyme.basic:id/btn_done]]>
+    </line>
+    <line>
+      <![CDATA[Tap on me tab]]>
     </line>
     <line>
       <![CDATA[Tapped successfully on By.xpath: //android.widget.TextView[@text='Me']]]>
     </line>
     <line>
+      <![CDATA[Assert green tick for the food objective card]]>
+    </line>
+    <line>
       <![CDATA[Food Objective Verification Is SuccessFull]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="117747" started-at="2019-02-13T13:20:39Z" finished-at="2019-02-13T13:22:37Z">
+  <suite name="Suite" duration-ms="127066" started-at="2019-02-13T14:23:44Z" finished-at="2019-02-13T14:25:51Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="117747" started-at="2019-02-13T13:20:39Z" finished-at="2019-02-13T13:22:37Z">
+    <test name="Test1" duration-ms="127066" started-at="2019-02-13T14:23:44Z" finished-at="2019-02-13T14:25:51Z">
       <class name="healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest@7225790e]" name="setUp" is-config="true" duration-ms="18602" started-at="2019-02-13T13:20:39Z" finished-at="2019-02-13T13:20:58Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest@7225790e]" name="setUp" is-config="true" duration-ms="27704" started-at="2019-02-13T14:23:44Z" finished-at="2019-02-13T14:24:11Z">
           <params>
             <param index="0">
               <value>
@@ -73,16 +127,19 @@
             <line>
               <![CDATA[Working Directory2 = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment/src/test/java/healthifyme/automationassignment/config/testConfig.json]]>
             </line>
-            <line>
-              <![CDATA[Working Directory = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment]]>
-            </line>
-            <line>
-              <![CDATA[Working Directory2 = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment/src/test/java/healthifyme/automationassignment/config/testConfig.json]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="buyTvTest()[pri:0, instance:healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest@7225790e]" name="buyTvTest" duration-ms="97033" started-at="2019-02-13T13:20:58Z" finished-at="2019-02-13T13:22:35Z">
+        <test-method status="PASS" signature="buyTvTest()[pri:0, instance:healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest@7225790e]" name="buyTvTest" duration-ms="97278" started-at="2019-02-13T14:24:11Z" finished-at="2019-02-13T14:25:49Z">
           <reporter-output>
+            <line>
+              <![CDATA[Read email Id from config]]>
+            </line>
+            <line>
+              <![CDATA[Read password from config]]>
+            </line>
+            <line>
+              <![CDATA[calling login function with email: hme-testpr150@example.com and password: password]]>
+            </line>
             <line>
               <![CDATA[waiting for the app to load]]>
             </line>
@@ -102,29 +159,80 @@
               <![CDATA[Tapped on logIn button successfully]]>
             </line>
             <line>
+              <![CDATA[looking for google account selection dialog]]>
+            </line>
+            <line>
+              <![CDATA[No google account selection dialog appeared]]>
+            </line>
+            <line>
               <![CDATA[LogIn is successfull]]>
             </line>
             <line>
-              <![CDATA[waiting for the app to load]]>
+              <![CDATA[Read today's food objective text from config]]>
+            </line>
+            <line>
+              <![CDATA[calling trackFoodObjective function with today's foodObjective: What's on your plate?]]>
+            </line>
+            <line>
+              <![CDATA[Tap on me tab]]>
             </line>
             <line>
               <![CDATA[Tapped successfully on By.xpath: //android.widget.TextView[@text='Me']]]>
+            </line>
+            <line>
+              <![CDATA[scrolling opened objective page]]>
+            </line>
+            <line>
+              <![CDATA[iterate over all the objectives and find food Objective element]]>
+            </line>
+            <line>
+              <![CDATA[store imageview element on food Objective card in an webelement]]>
+            </line>
+            <line>
+              <![CDATA[Tap on food Objective element]]>
+            </line>
+            <line>
+              <![CDATA[Select breakfast from Which meal would you like to track? page]]>
+            </line>
+            <line>
+              <![CDATA[Search the item you want to have for brakfast]]>
+            </line>
+            <line>
+              <![CDATA[get the list of all search results of breakfast items]]>
+            </line>
+            <line>
+              <![CDATA[Select any food item randomly]]>
+            </line>
+            <line>
+              <![CDATA[selected breakfast item is Boiled Milk]]>
+            </line>
+            <line>
+              <![CDATA[add selected food item to breakfast]]>
             </line>
             <line>
               <![CDATA[Tapped successfully on By.id: com.healthifyme.basic:id/btn_add]]>
             </line>
             <line>
+              <![CDATA[Tap on done button]]>
+            </line>
+            <line>
               <![CDATA[Tapped successfully on By.id: com.healthifyme.basic:id/btn_done]]>
             </line>
             <line>
+              <![CDATA[Tap on me tab]]>
+            </line>
+            <line>
               <![CDATA[Tapped successfully on By.xpath: //android.widget.TextView[@text='Me']]]>
+            </line>
+            <line>
+              <![CDATA[Assert green tick for the food objective card]]>
             </line>
             <line>
               <![CDATA[Food Objective Verification Is SuccessFull]]>
             </line>
           </reporter-output>
         </test-method> <!-- buyTvTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest@7225790e]" name="tearDown" is-config="true" duration-ms="2055" started-at="2019-02-13T13:22:35Z" finished-at="2019-02-13T13:22:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest@7225790e]" name="tearDown" is-config="true" duration-ms="2038" started-at="2019-02-13T14:25:49Z" finished-at="2019-02-13T14:25:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

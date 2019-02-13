@@ -189,7 +189,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'buyTvTest')
 data.setCell(0, 2, 'healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest')
-data.setCell(0, 3, 97033);
+data.setCell(0, 3, 97278);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -208,18 +208,38 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">buyTvTest</span>
               <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Read email Id from config</span>
+                <span class="reporter-method-output">Read password from config</span>
+                <span class="reporter-method-output">calling login function with email: hme-testpr150@example.com and password: password</span>
                 <span class="reporter-method-output">waiting for the app to load</span>
                 <span class="reporter-method-output">Tapped successfully on By.id: com.healthifyme.basic:id/btn_login</span>
                 <span class="reporter-method-output">entered email ID successfully</span>
                 <span class="reporter-method-output">entered password successfully</span>
                 <span class="reporter-method-output">Tapped successfully on By.id: com.healthifyme.basic:id/btn_login_signup</span>
                 <span class="reporter-method-output">Tapped on logIn button successfully</span>
+                <span class="reporter-method-output">looking for google account selection dialog</span>
+                <span class="reporter-method-output">No google account selection dialog appeared</span>
                 <span class="reporter-method-output">LogIn is successfull</span>
-                <span class="reporter-method-output">waiting for the app to load</span>
+                <span class="reporter-method-output">Read today's food objective text from config</span>
+                <span class="reporter-method-output">calling trackFoodObjective function with today's foodObjective: What's on your plate?</span>
+                <span class="reporter-method-output">Tap on me tab</span>
                 <span class="reporter-method-output">Tapped successfully on By.xpath: //android.widget.TextView[@text='Me']</span>
+                <span class="reporter-method-output">scrolling opened objective page</span>
+                <span class="reporter-method-output">iterate over all the objectives and find food Objective element</span>
+                <span class="reporter-method-output">store imageview element on food Objective card in an webelement</span>
+                <span class="reporter-method-output">Tap on food Objective element</span>
+                <span class="reporter-method-output">Select breakfast from Which meal would you like to track? page</span>
+                <span class="reporter-method-output">Search the item you want to have for brakfast</span>
+                <span class="reporter-method-output">get the list of all search results of breakfast items</span>
+                <span class="reporter-method-output">Select any food item randomly</span>
+                <span class="reporter-method-output">selected breakfast item is Boiled Milk</span>
+                <span class="reporter-method-output">add selected food item to breakfast</span>
                 <span class="reporter-method-output">Tapped successfully on By.id: com.healthifyme.basic:id/btn_add</span>
+                <span class="reporter-method-output">Tap on done button</span>
                 <span class="reporter-method-output">Tapped successfully on By.id: com.healthifyme.basic:id/btn_done</span>
+                <span class="reporter-method-output">Tap on me tab</span>
                 <span class="reporter-method-output">Tapped successfully on By.xpath: //android.widget.TextView[@text='Me']</span>
+                <span class="reporter-method-output">Assert green tick for the food objective card</span>
                 <span class="reporter-method-output">Food Objective Verification Is SuccessFull</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -245,11 +265,11 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">buyTvTest</span>
-                <span class="method-start">18602 ms</span>
+                <span class="method-start">27704 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">115642 ms</span>
+                <span class="method-start">124985 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

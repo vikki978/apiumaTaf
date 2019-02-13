@@ -1,13 +1,6 @@
-Feb 13, 2019 6:50:58 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Working Directory = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment
+************************ PREPARING JSON ****************************
+C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment/src/test/java/healthifyme/automationassignment/config/testConfig.json
+************************ PARSING COMPLETED ****************************
+Feb 13, 2019 7:54:11 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
-Working Directory = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment
-************************ PREPARING JSON ****************************
-C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment/src/test/java/healthifyme/automationassignment/config/testConfig.json
-************************ PARSING COMPLETED ****************************
-Working Directory = C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment
-************************ PREPARING JSON ****************************
-C:\Users\yadav\eclipse-workspace\healthifymeautomationassignment/src/test/java/healthifyme/automationassignment/config/testConfig.json
-************************ PARSING COMPLETED ****************************
-com.healthifyme.basic:id/iv_card_icon
-Tea with Cow's Milk
-com.healthifyme.basic:id/ll_objective_done
