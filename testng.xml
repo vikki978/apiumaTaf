@@ -3,7 +3,7 @@
 	<test name="Test1">
 		<parameter name="port" value="4723"/>
 		<classes>
-			<class name="wipro.automationassignment.testscripts.BuyTvTest"/>
+			<class name="healthifyme.automationassignment.testscripts.FoodObjectiveVerificationTest"/>
 		</classes>
 	</test> 
 </suite>

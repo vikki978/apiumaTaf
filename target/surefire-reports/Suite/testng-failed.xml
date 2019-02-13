@@ -4,13 +4,13 @@
   <test thread-count="5" verbose="0" name="Test1(failed)">
     <parameter name="port" value="4723"/>
     <classes>
-      <class name="wipro.automationassignment.testscripts.BuyTvTest">
+      <class name="healthifyme.automationassignment.testscripts.BuyTvTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="buyTvTest"/>
         </methods>
-      </class> <!-- wipro.automationassignment.testscripts.BuyTvTest -->
+      </class> <!-- healthifyme.automationassignment.testscripts.BuyTvTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
